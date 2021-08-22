@@ -29,12 +29,16 @@ defined( 'ABSPATH' ) || exit;
 
                 <?php while( have_rows('content')) : the_row(); ?>
 
+
+                        <?php get_template_part('template-parts/flexible-content/simple', 'text'); ?>
+
                         <?php get_template_part('template-parts/flexible-content/two', 'column'); ?>
                         
                         <?php get_template_part('template-parts/flexible-content/slider'); ?>
                         
                         <?php get_template_part('template-parts/flexible-content/accordion'); ?>
-
+                        
+                        
                 <?php endwhile; ?>
 
             <?php endif; ?>

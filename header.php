@@ -29,7 +29,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div id="top-bar-wrapper">
 		<div class="container">	
 			<div class="row pl-0 pt-2 pb-2">
-				<div class="col-md-10">This is just some text, for instance a Covid notice or important announcement</div>
+				<div class="col-md-10">This is just some text, for instance a notice or important announcement</div>
 				<div class="col-md-2 mr-0 d-flex justify-content-end">
 					<div class="">
 						<a href="#"><span id="close-btn" class="fa fa-close"></span></a>
