@@ -1,3 +1,1 @@
-# ACF Flexible Content Task - Example
-
-For attention of Brace
+# ACF Flexible Content
